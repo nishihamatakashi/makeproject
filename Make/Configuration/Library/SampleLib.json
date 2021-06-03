@@ -1,0 +1,17 @@
+{
+    "BuildType":"static",
+    "ProjectName":"SampleLib",
+    "DependLibrary":[
+    ],
+    "DependThirdParty":[
+    ],
+    "IncludeDirectory":[
+        "inc"
+    ],
+    "SourceDirectory":[
+        "inc",
+        "src"
+    ],
+    "ExtensionDirectory":[
+    ]
+}

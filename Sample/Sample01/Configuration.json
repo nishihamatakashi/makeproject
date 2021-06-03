@@ -1,0 +1,43 @@
+{
+    "BuildType":"execute",
+    "ProjectName":"sample01",
+    "WorkSpacePath":"workspace/sample01",
+    "DependLibrary":[
+        "core"
+    ],
+    "DependThirdParty":[
+        "renderdoc"
+    ],
+    "IncludeDirectory":[
+        "src"
+    ],
+    "SourceDirectory":[
+        "src"
+    ],
+    "ExtensionDirectory":[
+    ],
+    "TypeConfig":{
+        "@OSType":"Windows",
+        "@GfxApiType":"d3d11",
+        "@MakeType":"CMake"
+    },
+    "BuildOption":{
+        "Common":{
+            "DefineMacro":[
+                "PLATFORM_WINDOWS_64"
+            ],
+            "CompileOption":[
+                "/fp:fast",
+                "/Ob1",
+                "/Ot",
+                "/Zi",
+                "/W4",
+                "/WX",
+                "/wd"
+            ],
+            "LinkerOption":[
+    
+            ]
+        }
+    }
+}

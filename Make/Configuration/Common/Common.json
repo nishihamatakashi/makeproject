@@ -1,0 +1,6 @@
+{
+    "ReplaceTypeConfig":[
+        "@OSType",
+        "@GfxApiType"
+    ]
+}

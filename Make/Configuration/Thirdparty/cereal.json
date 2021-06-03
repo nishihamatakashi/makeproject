@@ -1,0 +1,10 @@
+{
+    "IncludeDirectory":[
+        "inc"
+    ],
+    "LibraryDirectory":[
+        "lib"
+    ],
+    "ExtensionDirectory":[
+    ]
+}
